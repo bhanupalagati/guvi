@@ -6,7 +6,7 @@ try:
         if i == arr[i]:
             s+=str(i)+" "
     if len(arr)-1 == arr[-1]:
-        s+=str(arr[-1])+'.'
+        s+=str(arr[-1])
     print(s)
 except:
     print("Invalid Input")
